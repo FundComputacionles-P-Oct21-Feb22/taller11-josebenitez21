@@ -44,7 +44,7 @@
 23.
 24.Fin funcion principal
 25.  funcion calcularValorLuz(a, x; b, x)
-26.    valorKilovatio, d[0-n]
+26.    numeroKilovatioMes, d[0-n]
 27.    valorKilovatio, d[0-n]
 28.    cadenaFinal;x(100)[{a-z},{A-Z},{BS}]
 29.    Escribir "Ingrese el número de kilovatios consumidos en el mes"

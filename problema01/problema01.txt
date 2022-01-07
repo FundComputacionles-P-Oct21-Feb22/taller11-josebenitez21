@@ -49,7 +49,7 @@
 28.    cadenaFinal;x(100)[{a-z},{A-Z},{BS}]
 29.    Escribir "Ingrese el número de kilovatios consumidos en el mes"
 30.    Leer numeroKilovatioMes
-31.    Escribir "Ingrese el costo de kilovatios"
+31.    Escribir "Ingrese el costo por kilovatios"
 32.    Leer valorKilovatio
 33.    p,d[0-n]
 34.    p <-- numeroKilovatioMes * valorKilovatio
@@ -66,6 +66,8 @@
 45.   Leer valorInmueble
 46.   p,d[0-n]
 47.   p <-- valorInmueble * 0.02
+48.   cadenaFinal <-- "Cliente" + nombre + "con cedula" + cedula + "tiene un bien inmueble valorado en $" +
+49.   valorInmueble + "y tiene que pagar de predio $" +p
 48.   Escribir cadenaFinal
 49. fin funcionPredioInmueble
 50.Fin

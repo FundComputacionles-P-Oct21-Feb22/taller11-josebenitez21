@@ -1,0 +1,72 @@
+//Problema 01
+//Generar un procedimiento para calcular el valor de la planilla de luz y otro
+//procedimiento para calcular el valor del predio de un bien inmueble.
+//Cada procedimiento debe tener 2 parámetros (tipo cadena para nombre del cliente,
+//cédula del cliente).
+//En el procedimiento de planilla de luz se debe pedir los siguiente datos valor
+//del kilowatio y el número de kilowatios del mes. Y se presenta en pantalla el
+//siguiente reporte: Cliente Ana Contreras con cédula 1100112233 debe cancelar
+//el valor de $10
+//En el procedimiento del predio se debe pedir el valor de inmueble y el para
+//obtener el valor del predio se saca el 2% del valor del inmueble. Y se presenta
+//el siguiente reporte:
+
+//Cliente Ana Contreras con cédula 1100112233 tiene un bien inmueble valorado en
+//$30000 y tiene que pagar de predio $ 6000.
+
+//En el método principal; si el usuario ingresa 1 se llama al procedimiento
+//calcularValorLuz; 2 se llama al procedimiento calcularPredio. Los datos que se
+//necesita en cada procedimiento se los debe ingresar por teclado.
+
+
+1.Inicio
+2.funcion principal()
+3.    valorKilovatio, d[0-n]
+4.    valorKilovatio, d[0-n]
+5.    valorInmueble, d[0-n]
+6.    nombre, x(50)[{a-z},{A-Z},{BS}]
+7.    cedula, x(50)[{a-z},{A-Z},{BS}]
+8.    opciondis, i[0-n]
+9.    Escribir "Ingrese su nombre"
+10.    Leer nombre
+11.   Escribir "Ingrese su número de cédula"
+12.   Leer cedula
+13.   Escribir "Ingrese 1 para calcular el valor de su planilla de luz, o digite
+14.   2 para calcular el predio de un inmueble"
+15.
+16.   Si  opciondis == 1 entonces
+17.               calcularValorLuz(nombre, cedula)
+18.   Caso contrario
+19.          Si opciondis == 2 entonces
+20.               PredioInmueble (nombre, cedula)
+21.          Caso contario
+22.                 Escribir "Opción incorrecta, intente de nuevo"
+23.
+24.Fin funcion principal
+25.  funcion calcularValorLuz(a, x; b, x)
+26.    valorKilovatio, d[0-n]
+27.    valorKilovatio, d[0-n]
+28.    cadenaFinal;x(100)[{a-z},{A-Z},{BS}]
+29.    Escribir "Ingrese el número de kilovatios consumidos en el mes"
+30.    Leer numeroKilovatioMes
+31.    Escribir "Ingrese el costo de kilovatios"
+32.    Leer valorKilovatio
+33.    p,d[0-n]
+34.    p <-- numeroKilovatioMes * valorKilovatio
+35.    cadenaFinal <-- "Cliente" + nombre + "con cedula" + cedula + "debe cancelar el valor de"
+36.    + p
+37.    Escribir cadenaFinal
+38.  fin funcion calcularValorLuz
+39.
+40. funcionPredioInmueble(a, x; b, x)
+41.   valorInmueble, d[0-n]
+42.  cadenaFinal;x(100)[{a-z},{A-Z},{BS}]
+43.
+44.   Escribir "Ingrese el valor de su inmueble"
+45.   Leer valorInmueble
+46.   p,d[0-n]
+47.   p <-- valorInmueble * 0.02
+48.   Escribir cadenaFinal
+49. fin funcionPredioInmueble
+50.Fin
+51.

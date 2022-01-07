@@ -1,0 +1,16 @@
+1. Inicio
+2. 	funcionPrincipal()
+3. 	obtener funcion_arreglo()
+4. funcion_arreglo()
+5. 	cadenaFinal(5), x(1000)[{A-Z}, {a-z}, {1-n}, {BS}]
+6. 	datosIngre, x(20)[{A-Z}, {a-z}, {1-n}, {BS}]
+7. 	cadenaFinal <-- {{}}
+8. 	para(int i = 0; notas < 5; i++) hacer
+9. 		Escribir "Ingresar un valor: "
+10. 		Leer datosIngre
+11. 		cadenaFinal [i] <-- datosIngre
+12. 	fin Para
+13. 	para(int i = 0; notas < 5; i++) hacer
+14. 		Escribir cadenaFinal[i]
+15. 	Fin para
+16. Fin
